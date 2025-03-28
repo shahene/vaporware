@@ -1,24 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Vape-Free Dashboard
+
+A personal dashboard to track my journey away from vaping, visualize health improvements, and monitor financial savings.
+
+## Features
+
+- Streak tracking for vape-free days
+- Daily mood and experience logging
+- Financial savings calculator with long-term compound interest projections
+- Health visualization timeline
+- Motivational content focused on technology, longevity, and personal impact
+- Futuristic design aesthetic
+
+## Tech Stack
+
+- Frontend: React.js with Tailwind CSS
+- Backend: Node.js with Express
+- Database: MongoDB (for simplicity)
+- Visualization: Three.js (for 3D body visualization)
+- Deployment: Vercel or Netlify
+
+## Project Structure
 
 ## Getting Started
 
-First, run the development server:
+1. Clone this repository
+2. Install dependencies:
+   ```
+   cd client && npm install
+   cd ../server && npm install
+   ```
+3. Start the development servers:
+   ```
+   # Terminal 1
+   cd client && npm start
+   
+   # Terminal 2
+   cd server && npm run dev
+   ```
+4. Open http://localhost:3000 in your browser
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Development Roadmap
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [ ] Set up project structure and basic UI
+- [ ] Implement streak tracking functionality
+- [ ] Create daily logging system
+- [ ] Develop financial calculator with compound interest
+- [ ] Build health visualization timeline
+- [ ] Integrate motivational content system
+- [ ] Design and implement 3D body visualization
+- [ ] Deploy application
 
 ## Learn More
 
